@@ -1,0 +1,32 @@
+ul{
+     list-style: none;
+     display: flex;
+     padding-left:10px;
+}
+li{
+ padding: 10px;
+}
+.main{
+     padding-left: 15px;
+}
+button{
+     margin: 15px;
+     background-color: blueviolet;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     font-weight: bold;
+}
+.active-item{
+     color: rgb(241, 241, 241);
+     font-weight: bold;
+     text-decoration: none;
+     background-color: rgb(61, 14, 108);
+     padding: 10px;
+     border-radius: 4px;
+}
+.pending-item{
+     color: rgb(215, 124, 13);
+     text-decoration: none;
+}

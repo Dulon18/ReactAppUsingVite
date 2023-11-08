@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 
 const Header = () => {
-  return <header>Header Component In Project page</header>;
+  return <header>Contact Header Component</header>;
 };
 
 const MainContent = () => {
@@ -26,21 +26,21 @@ const Sidebar = () => {
     // Access and manipulate the sidebarRef
     sidebarRef.current.style.color = 'red';
   }, []);
-  return <aside ref={sidebarRef}>Sidebar Component</aside>;
+  return <aside ref={sidebarRef}>Contact Sidebar Component</aside>;
 };
 
 const Footer = () => {
-  return <footer>Footer Component</footer>;
+  return <footer>Contack Footer Component</footer>;
 };
-const Project = () => {
-   return (
-    <div>
-      <Header />
-      <MainContent />
-      <Sidebar />
-      <Footer />
-    </div>
-  );
+const Contact = () => {
+     return (
+          <div>
+               <Header />
+               <MainContent />
+               <Sidebar />
+               <Footer />
+          </div>
+     );
 };
 
-export default Project;
+export default Contact;

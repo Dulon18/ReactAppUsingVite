@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 
 const Header = () => {
-  return <header>Header Component In Project page</header>;
+  return <header> Blog Header Component</header>;
 };
 
 const MainContent = () => {
@@ -32,15 +32,16 @@ const Sidebar = () => {
 const Footer = () => {
   return <footer>Footer Component</footer>;
 };
-const Project = () => {
-   return (
-    <div>
-      <Header />
-      <MainContent />
-      <Sidebar />
-      <Footer />
-    </div>
-  );
+
+const Blog = () => {
+     return (
+          <div>
+               <Header />
+               <MainContent />
+               <Sidebar />
+               <Footer />
+          </div>
+     );
 };
 
-export default Project;
+export default Blog;
